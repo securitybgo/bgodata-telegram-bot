@@ -5,8 +5,6 @@
 error_reporting(0);
 ini_set('display_errors', 0);
 
-require_once __DIR__ . '/db.php';
-
 // IMPORTANT: Do NOT put your real Telegram token in this file if it has
 // already been exposed. Generate a new token in @BotFather first.
 $BOT_TOKEN = getenv('BOT_TOKEN');
